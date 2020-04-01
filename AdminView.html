@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+  width: 100%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7B68EE;
+}
+.header
+{
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: black;
+  font-size: 25px;
+  color: black;
+}
+h4{
+   color: #E3E3E3;
+}
+html, body {
+ margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<title>Tech Event System</title>
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="header">
+    <i class="fa fa-cog fa-spin"></i>
+    <h4>TECH EVENT MANAGEMENT SYSTEM</h4>
+    <img class="rotate" src="logo1.png" height="100" width="100"/>
+  <p>
+
+  </p>
+</div>
+
+<body>
+    <ul>
+        <li><i class="fas fa-home"></i></li>
+        <li><a href="home.html">HOME</a></li>
+        <li><i class="fa fa-address-book aria-hidden="true"></i></li>
+        <li><a class="active" href="about.html">ABOUT</a></li>
+        <!-- <li><i class="fas fa-shipping-fast"></i></li> -->
+        <!-- <li><a href="Express post.html">EXPRESS POST</a></li> -->
+        <li><li><i class="fa fa-user"></i><li></li>
+        
+        <li>
+          <div class="dropdown">
+              <button class="dropbtn">EVENTS
+              <i class="fa fa-caret-down"></i>
+              </button>
+          <div class="dropdown-content" >
+              <a href="BugCatcher.html">Bug Catcher </a>
+              <a href="BattleofBrains.html"> Battle of Brains  </a>
+              <a href="QuizCompetition.html">Quiz Competition </a>
+              <a href="SpeedProgramming .html"> Speed Programming  </a>
+              <a href="WebDevelopment.html">Web Development </a>
+              <a href="MobileAppDevelopment.html">Mobile App Developement </a>
+              <a href="DataScienceCompetiton.html"> Data Science Competiton </a>
+              <a href="SoftwareCompetition.html"> Software Competiton </a>  
+      
+            <!-- <a href="search.html">Sign up </a> -->
+          </div>
+          </div> </li>
+          <li><a class="active" href="contactus.html">CONTACT US</a></li>
+          <li><a class="active" href="head.html">TEAM</a></li>
+          <li><a class="active" href="Participant.html">PARTICIPANT</a></li>
+          <li><a class="active" href="logistics.html">LOGISTICS</a></li>
+        <li>
+            <div class="dropdown">
+                <button class="dropbtn">LOGIN AS
+                <i class="fa fa-caret-down"></i>
+                </button>
+            <div class="dropdown-content" >
+              <a href="plogin.html">Participant </a>
+              <a href="tlogin.html">Team Member </a>
+              <a href="alogin.html">Admin </a>
+      
+      
+              <!-- <a href="search.html">Sign up </a> -->
+            </div>
+            </div> </li>
+        <li><li><i class="fa fa-bars"></i><li></li>
+      
+          <li ><a href="insert.html">Sign Up</a></li>
+        
+      </ul>
+      
+<!--
+<ul>
+  <li><i class="fas fa-home"></i></li>
+  <li><a href="home.html">HOME</a></li>
+   <li><i class="fa fa-address-book aria-hidden="true"></i></li>
+  <li><a class="active" href="about.html">ABOUT</a></li>
+  <li><i class="fas fa-shipping-fast"></i></li>
+  <li><a href="Express post.html">EXPRESS POST</a></li>
+  <li><li><i class="fa fa-user"></i><li></li>
+  <li>
+      <div class="dropdown">
+          <button class="dropbtn">CUSTOMER
+          <i class="fa fa-caret-down"></i>
+          </button>
+      <div class="dropdown-content">
+        <a href="insert.html">Insert Customer's Record</a>
+        <a href="Delete.html">Delete Customer's Record</a>
+        <a href="search.html">Search Customer's Record</a>
+      </div>
+      </div> </li>
+   <li><li><i class="fa fa-bars"></i><li></li>
+   <li>
+      <div class="dropdown">
+          <button class="dropbtn">EMPLOYEE
+          <i class="fa fa-caret-down"></i>
+          </button>
+      <div class="dropdown-content">
+        <a href="insert_emp.html">Insert Employee's Record</a>
+        <a href="Delete_emp.html">Delete Employee's Record</a>
+        <a href="search_emp.html">Search Employee's Record</a>
+      </div>
+      </div>
+	</li>
+	<li><i class="fa fa-files-o"></i><li>
+    <li><a href="invoice.html">INVOICE</a></li>
+    <li><li><i class="fa fa-envelope"></i><li></li>
+    <li><a href="Email.html">EMAIL US</a></li>
+	<li><li><i class="fa fa-map-marker"></i><li></li>
+    <li><a href="tracking.html">TRACK</a></li> -->
+</ul>
+
+<div class="header">
+  <p>
+    <img src = "conference.png" alt="Image" height="400" width="1200"/>
+  </p>
+</div>
+
+<style>
+
+body, html {
+  height: 100%;
+}
+.fa-map-marker
+{
+color: #E3E3E3;
+font-size: 40px;
+background: #8E9297;
+padding: 10px;
+border-radius: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("catCoding.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2x);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+h1{
+  color: red;;
+}
+
+footer {
+  display: block;
+  background-color: #8E9297;
+}
+.fa-user{
+color: red;
+font-size: 30px;
+background: #1111;
+padding: 15px;
+border-radius: 30px;
+}
+
+.fa-home {
+color: red;
+font-size: 30px;
+background: #1111;;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-files-o
+{
+color: red;
+font-size: 30px;
+background: #1111;;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-shipping-fast
+{
+color: red;
+font-size: 30px;
+background: #1111;;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-envelope{
+color: red;
+font-size: 30px;
+background: #1111;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-address-book
+{
+color: red;
+font-size: 30px;
+background: #1111;;
+padding: 15px;
+border-radius: 30px;
+}
+.glyphicon-thumbs-up
+{
+color: red;
+font-size: 30px;
+background: #1111;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-bars{
+color: red;
+font-size: 30px;
+background: #1111;
+padding: 15px;
+border-radius: 30px;
+}
+.fa-cog{
+color: #E3E3E3;
+font-size: 40px;
+background: #8E9297;
+padding: 10px;
+border-radius: 40px;
+}
+h3
+{
+  text-align: justify;
+  text-justify: inter-word;
+  color: #E3E3E3;
+}
+</style>
+<body>
+   
+
+<div class="bg-text">
+       
+
+  
+</div>
+
+<footer>
+   <div>
+    <!-- <p>©2016 to 2019 Tech Event Management Disclaimer| Help Line 4747-4747-4747</p>-->
+   </div>
+</footer>
+</body>
+</html>
